@@ -17,4 +17,7 @@ class Candidato(models.Model):
     nome = models.CharField(max_length=200)
     
 class Prova(models.Model):
-    nome = models.CharField(max_length=200)
+    nome_da_escola = models.CharField(max_length=200)
+    endereco = models.CharField(max_length=200)
+    cidade = models.CharField(max_length=200)
+    estado = models.CharField(max_length=200)
